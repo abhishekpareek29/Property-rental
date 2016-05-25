@@ -1,0 +1,5 @@
+name = PR Site Controller
+description = Module Contains Configurations.
+package = Site Controller
+core = 7.x
+version = 7.x-1.0

@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Install file.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function pr_site_controller_install() {
+  $themes = array('bootstrap', 'adminimal');
+  theme_enable($themes);
+
+  // Set bootstrap as default theme for all pages except admin.
+  variable_set('theme_default', 'schoolcounter_theme');
+
+  // Set Adminimal theme as admin theme.
+  variable_set('admin_theme', 'adminimal');
+
+  // Enable the following modules.
+  $modules = array(
+    'admin_menu',
+    'ctools',
+    'devel',
+    'features',
+    'module_filter',
+    // 'pathauto',
+    // 'redirect',
+    'strongarm',
+    // 'token',
+    'views',
+    'views_ui',
+    'adminimal_admin_menu'
+  );
+
+  module_enable($modules);
+}
