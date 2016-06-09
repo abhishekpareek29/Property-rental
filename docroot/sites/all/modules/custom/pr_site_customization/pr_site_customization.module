@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Module file.
+ */
+
+function pr_site_customization_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'ct_house_on_rent_node_form') {
+    drupal_set_title('Post Your Property Online For Free');
+    $form['field_ct_hor_for_sale']['#access'] = 0;
+  }
+}

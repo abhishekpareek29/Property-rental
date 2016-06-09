@@ -1,0 +1,4 @@
+name = PR Site Customizations
+description = Module Contains site customizations.
+package = Customizations
+core = 7.x

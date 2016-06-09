@@ -25,10 +25,10 @@ function pr_site_controller_install() {
     'devel',
     'features',
     'module_filter',
-    // 'pathauto',
+    'pathauto',
     // 'redirect',
     'strongarm',
-    // 'token',
+    'token',
     'views',
     'views_ui',
     'adminimal_admin_menu'
