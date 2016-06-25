@@ -9,7 +9,6 @@ body {
   font-size: $base_font;
   color: $text-color;
   font-family: $font-stack;
-
   h1 {
     font-size: $h1_font;
   }
@@ -49,8 +48,17 @@ body {
         max-width: 100%;
         padding: 0;
         position: relative;
-        background: white;
       }
     }
   }
+
+  #first-time {
+    display: none;
+  }
 }
+
+div.row, .navbar-header, .navbar-collapse {
+  margin: 0;
+}
+
+.front .page-header {display: none;}

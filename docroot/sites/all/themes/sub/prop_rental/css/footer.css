@@ -1,0 +1,51 @@
+/* line 3, ../sass/footer.scss */
+footer.footer.container {
+  background-color: #095786;
+  background-image: url(../images/footer_house.png);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  width: 100%;
+}
+/* line 10, ../sass/footer.scss */
+footer.footer.container .region.region-footer {
+  margin: 50px 10%;
+}
+/* line 12, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-menu-block-1 {
+  display: inline-block;
+  width: 70%;
+}
+/* line 17, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-menu-block-1 .menu-block-wrapper .menu.nav li {
+  display: inline-block;
+}
+/* line 19, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-menu-block-1 .menu-block-wrapper .menu.nav li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  background-color: #26709C;
+}
+/* line 24, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-menu-block-1 .menu-block-wrapper .menu.nav li a:hover {
+  background-color: #106FA7;
+}
+/* line 32, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-block-1 {
+  display: inline-block;
+  width: 29%;
+}
+/* line 35, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-block-1 .block-title {
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+/* line 40, ../sass/footer.scss */
+footer.footer.container .region.region-footer #block-block-1 .follow-link-wrapper {
+  margin: 10px;
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=footer.css.map */

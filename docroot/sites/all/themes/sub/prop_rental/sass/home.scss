@@ -1,0 +1,30 @@
+@import "variables";
+
+body.front {
+  header#navbar {
+    margin-bottom: 0;
+  }
+
+  .main-container.container {
+    margin: 0;
+    width: 100%;
+    #block-views-views-banners-banners-block {
+      .views-field-field-ct-banners-image {
+        img {
+          width: 100%;
+          max-height: 500px;
+        }
+      }
+      .views-field-field-ct-banners-slogan {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        background-color: rgba(255, 96, 0, 0.50);
+      }
+    }
+  }
+}

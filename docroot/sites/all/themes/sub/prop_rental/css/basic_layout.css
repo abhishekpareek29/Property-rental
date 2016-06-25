@@ -10,47 +10,60 @@ body {
   color: #888888;
   font-family: "Gudea", sans-serif, Helvetica;
 }
-/* line 13, ../sass/basic_layout.scss */
+/* line 12, ../sass/basic_layout.scss */
 body h1 {
   font-size: 2rem;
 }
-/* line 17, ../sass/basic_layout.scss */
+/* line 16, ../sass/basic_layout.scss */
 body h2 {
   font-size: 1.8rem;
 }
-/* line 21, ../sass/basic_layout.scss */
+/* line 20, ../sass/basic_layout.scss */
 body h3 {
   font-size: 1.5rem;
 }
-/* line 25, ../sass/basic_layout.scss */
+/* line 24, ../sass/basic_layout.scss */
 body h4 {
   font-size: 1.3rem;
 }
-/* line 29, ../sass/basic_layout.scss */
+/* line 28, ../sass/basic_layout.scss */
 body h5 {
   font-size: 1.2rem;
 }
-/* line 33, ../sass/basic_layout.scss */
+/* line 32, ../sass/basic_layout.scss */
 body h6 {
   font-size: 1.1rem;
 }
-/* line 37, ../sass/basic_layout.scss */
+/* line 36, ../sass/basic_layout.scss */
 body a {
   color: #1f1f1f;
 }
-/* line 39, ../sass/basic_layout.scss */
+/* line 38, ../sass/basic_layout.scss */
 body a:hover {
   text-decoration: none;
   color: #2c93d5;
   transition: color 0.3s ease;
 }
-/* line 47, ../sass/basic_layout.scss */
+/* line 46, ../sass/basic_layout.scss */
 body.html > div.container, body.html > header.container, body.html > footer.container {
   width: 100%;
   max-width: 100%;
   padding: 0;
   position: relative;
-  background: white;
+}
+/* line 55, ../sass/basic_layout.scss */
+body #first-time {
+  display: none;
+}
+
+/* line 60, ../sass/basic_layout.scss */
+div.row, .navbar-header, .navbar-collapse {
+  margin: 0;
+}
+
+/* line 64, ../sass/basic_layout.scss */
+.front .page-header {
+  display: none;
 }
 
 /*# sourceMappingURL=basic_layout.css.map */

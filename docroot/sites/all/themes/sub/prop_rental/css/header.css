@@ -1,0 +1,37 @@
+/* line 3, ../sass/header.scss */
+header#navbar {
+  margin: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: none;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  background-color: #333;
+  background-image: url(../images/grid-small-dot.png);
+}
+/* line 13, ../sass/header.scss */
+header#navbar .navbar-brand {
+  margin-top: 16px;
+  font-size: 2rem;
+}
+/* line 17, ../sass/header.scss */
+header#navbar .nav.navbar-nav {
+  margin-top: 16px;
+  font-size: 1.2rem;
+}
+/* line 20, ../sass/header.scss */
+header#navbar .nav.navbar-nav a:hover {
+  background-color: #524E4D;
+}
+/* line 24, ../sass/header.scss */
+header#navbar a {
+  color: white;
+  text-transform: uppercase;
+}
+/* line 27, ../sass/header.scss */
+header#navbar a.active {
+  background-color: #981500;
+}
+
+/*# sourceMappingURL=header.css.map */

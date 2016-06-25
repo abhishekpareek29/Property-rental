@@ -1,0 +1,46 @@
+@import "variables";
+
+footer.footer.container {
+  background-color: $site-footer;
+  background-image: url(../images/footer_house.png);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  width: 100%;
+  .region.region-footer {
+    margin: 50px 10%;
+    #block-menu-block-1 {
+      display: inline-block;
+      width: 70%;
+      .menu-block-wrapper {
+        .menu.nav {
+          li {
+            display: inline-block;
+            a {
+              color: $white;
+              text-transform: uppercase;
+              font-size: $small_font;
+              background-color: #26709C;
+              &:hover {
+                background-color: #106FA7;
+              }
+            }
+          }
+        }
+      }
+    }
+    #block-block-1 {
+      display: inline-block;
+      width: 29%;
+      .block-title {
+        color: white;
+        font-size: 1.1rem;
+        margin-top: 0;
+      }
+      .follow-link-wrapper {
+        margin: 10px;
+        margin-left: 0;
+      }
+    }
+  }
+}

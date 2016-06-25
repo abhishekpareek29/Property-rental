@@ -124,13 +124,13 @@ settings[bootstrap_tooltip_container] = 'body'
 
 ; Advanced
 ; --------------
-settings[bootstrap_cdn_provider] = 'jsdelivr'
-settings[bootstrap_cdn_custom_css] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.css'
-settings[bootstrap_cdn_custom_css_min] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css'
-settings[bootstrap_cdn_custom_js] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js'
-settings[bootstrap_cdn_custom_js_min] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js'
-settings[bootstrap_cdn_jsdelivr_version] = '3.3.5'
-settings[bootstrap_cdn_jsdelivr_theme] = 'bootstrap'
+;settings[bootstrap_cdn_provider] = 'jsdelivr'
+;settings[bootstrap_cdn_custom_css] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.css'
+;settings[bootstrap_cdn_custom_css_min] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css'
+;settings[bootstrap_cdn_custom_js] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js'
+;settings[bootstrap_cdn_custom_js_min] = 'https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js'
+;settings[bootstrap_cdn_jsdelivr_version] = '3.3.5'
+;settings[bootstrap_cdn_jsdelivr_theme] = 'bootstrap'
 
 ; Global
 ; --------------
@@ -185,6 +185,19 @@ exclude[css][] = 'modules/tracker/tracker.css'
 exclude[css][] = 'modules/update/update.css'
 exclude[css][] = 'modules/user/user.css'
 
+stylesheets[all][] = bootstrap-local/css/bootstrap.css
+stylesheets[all][] = bootstrap-local/css/bootstrap.min.css
+
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/home.css
+stylesheets[all][] = css/basic_layout.css
+
+;;;;;;;;;;;;;;;;;;
+;;; Javascript ;;;
+;;;;;;;;;;;;;;;;;;
+scripts[] = bootstrap-local/js/bootstrap.js
+scripts[] = bootstrap-local/js/bootstrap.min.js
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Breakpoints
