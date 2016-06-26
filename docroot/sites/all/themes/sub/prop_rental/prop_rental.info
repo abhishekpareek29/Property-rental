@@ -225,6 +225,6 @@ multipliers[screen-lg-min][] = 2x
 ; Information added by Drupal.org packaging script on 2016-03-01
 version = "7.x-3.5"
 core = "7.x"
-project = "bootstrap"
+;project = "bootstrap"
 datestamp = "1456870747"
 
