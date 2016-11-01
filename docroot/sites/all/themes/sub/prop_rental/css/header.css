@@ -1,37 +1,75 @@
-/* line 3, ../sass/header.scss */
-header#navbar {
-  margin: 0;
-  padding: 20px;
-  margin-bottom: 20px;
-  max-width: none;
-  width: 100%;
-  border-radius: 0;
+/* line 5, ../sass/header.scss */
+body header#navbar {
+  margin-bottom: 0;
   border: none;
-  background-color: #333;
-  background-image: url(../images/grid-small-dot.png);
+  border-bottom: 1px solid #4d4fff;
+  background-color: white;
 }
-/* line 13, ../sass/header.scss */
-header#navbar .navbar-brand {
-  margin-top: 16px;
-  font-size: 2rem;
+@media only screen and (max-width: 500px) {
+  /* line 13, ../sass/header.scss */
+  body header .navbar-header .logo img {
+    width: 250px;
+  }
 }
-/* line 17, ../sass/header.scss */
-header#navbar .nav.navbar-nav {
-  margin-top: 16px;
-  font-size: 1.2rem;
-}
-/* line 20, ../sass/header.scss */
-header#navbar .nav.navbar-nav a:hover {
-  background-color: #524E4D;
+/* line 19, ../sass/header.scss */
+body header .navbar-header .navbar-toggle {
+  display: none;
 }
 /* line 24, ../sass/header.scss */
-header#navbar a {
-  color: white;
-  text-transform: uppercase;
+body header #block-tb-megamenu-menu-site-wide {
+  box-shadow: 0 5px 10px #949494;
+  background-color: #f58220;
 }
 /* line 27, ../sass/header.scss */
-header#navbar a.active {
-  background-color: #981500;
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
+  width: 25%;
+  text-align: center;
+}
+@media only screen and (max-width: 979px) {
+  /* line 27, ../sass/header.scss */
+  body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
+    width: 100%;
+    text-align: left;
+  }
+}
+/* line 35, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide ul.tb-megamenu-nav {
+  padding: 0 15%;
+}
+/* line 38, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
+  background-color: #4d4fff;
+  border-right: none;
+  height: 50px;
+  overflow: hidden;
+  font-size: 15px;
+}
+/* line 44, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a:hover {
+  color: white;
+  border-bottom: 5px solid white;
+}
+/* line 49, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav {
+  background-color: #4d4fff;
+}
+/* line 51, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu {
+  border-bottom-color: #4d4fff;
+}
+/* line 54, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu a:hover {
+  color: #4d4fff;
+  border-color: #4d4fff;
+}
+/* line 61, ../sass/header.scss */
+body header #block-tb-megamenu-menu-site-wide .tb-megamenu-button {
+  position: absolute;
+  top: -45px;
+  z-index: 222222;
+  right: 10px;
+  background-image: linear-gradient(to bottom, #4d4fff, #4d4fff);
+  background-color: #4d4fff;
 }
 
 /*# sourceMappingURL=header.css.map */

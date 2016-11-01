@@ -1,51 +1,118 @@
 /* line 3, ../sass/footer.scss */
-footer.footer.container {
-  background-color: #095786;
-  background-image: url(../images/footer_house.png);
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  width: 100%;
+footer {
+  padding: 20px;
+  padding-bottom: 0;
 }
-/* line 10, ../sass/footer.scss */
-footer.footer.container .region.region-footer {
-  margin: 50px 10%;
+/* line 8, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block {
+  background-color: #666699;
+  color: white;
+  padding-bottom: 20px;
 }
 /* line 12, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-menu-block-1 {
-  display: inline-block;
-  width: 70%;
+footer .region-footer #block-pr-site-customization-footer-second-last-block .contact-us-form .sub-title {
+  padding: 0 20px;
+}
+/* line 15, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block #webform-client-form-5 {
+  padding-top: 0;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 }
 /* line 17, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-menu-block-1 .menu-block-wrapper .menu.nav li {
-  display: inline-block;
+footer .region-footer #block-pr-site-customization-footer-second-last-block #webform-client-form-5 input, footer .region-footer #block-pr-site-customization-footer-second-last-block #webform-client-form-5 textarea {
+  border-radius: 0;
 }
-/* line 19, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-menu-block-1 .menu-block-wrapper .menu.nav li a {
-  color: white;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  background-color: #26709C;
-}
-/* line 24, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-menu-block-1 .menu-block-wrapper .menu.nav li a:hover {
-  background-color: #106FA7;
-}
-/* line 32, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-block-1 {
-  display: inline-block;
-  width: 29%;
-}
-/* line 35, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-block-1 .block-title {
-  color: white;
-  font-size: 1.1rem;
+/* line 20, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block #webform-client-form-5 .block-title {
+  text-align: left;
   margin-top: 0;
 }
-/* line 40, ../sass/footer.scss */
-footer.footer.container .region.region-footer #block-block-1 .follow-link-wrapper {
-  margin: 10px;
-  margin-left: 0;
+/* line 28, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block #webform-client-form-5 .webform-submit {
+  width: 100%;
+  border-radius: 0;
+  background-color: #f58220;
+  border: none;
+}
+/* line 33, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block #webform-client-form-5 .webform-submit:hover {
+  color: #000;
+}
+/* line 41, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block .footer-menu-items ul li a {
+  color: #000;
+  border: 1px solid white;
+  margin: 3px;
+}
+/* line 45, ../sass/footer.scss */
+footer .region-footer #block-pr-site-customization-footer-second-last-block .footer-menu-items ul li a:hover {
+  background-color: white;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+/* line 60, ../sass/footer.scss */
+#block-block-1 {
+  padding: 20px 0;
+}
+/* line 62, ../sass/footer.scss */
+#block-block-1 .footer-last {
+  padding: 15px 0;
+  background: #fff;
+}
+/* line 66, ../sass/footer.scss */
+#block-block-1 .footer-last p {
+  margin: 0px;
+}
+/* line 69, ../sass/footer.scss */
+#block-block-1 .social {
+  margin: 0px;
+}
+/* line 72, ../sass/footer.scss */
+#block-block-1 .social a {
+  background: url("../images/social-icons.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 50px;
+  text-align: left;
+  text-indent: -9999px;
+  vertical-align: middle;
+  width: 50px;
+  margin-left: 5px;
+}
+/* line 82, ../sass/footer.scss */
+#block-block-1 .social a.fb {
+  background-position: left top;
+}
+/* line 85, ../sass/footer.scss */
+#block-block-1 .social a.fb:hover {
+  background-position: left -51px;
+}
+/* line 88, ../sass/footer.scss */
+#block-block-1 .social a.twitter {
+  background-position: -51px top;
+}
+/* line 91, ../sass/footer.scss */
+#block-block-1 .social a.twitter:hover {
+  background-position: -51px -51px;
+}
+/* line 94, ../sass/footer.scss */
+#block-block-1 .social a.gl {
+  background-position: -102px top;
+}
+/* line 97, ../sass/footer.scss */
+#block-block-1 .social a.gl:hover {
+  background-position: -102px -51px;
+}
+/* line 100, ../sass/footer.scss */
+#block-block-1 .social a.tum {
+  background-position: -153px top;
+}
+/* line 103, ../sass/footer.scss */
+#block-block-1 .social a.tum:hover {
+  background-position: -153px -51px;
 }
 
 /*# sourceMappingURL=footer.css.map */

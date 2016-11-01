@@ -1,31 +1,71 @@
 @import "variables";
 
-header#navbar {
-  margin: 0;
-  padding: 20px;
-  margin-bottom: 20px;
-  max-width: none;
-  width: 100%;
-  border-radius: 0;
-  border: none;
-  background-color: $site-header;
-  background-image: url(../images/grid-small-dot.png);
-  .navbar-brand {
-    margin-top: 16px;
-    font-size: $h1_font;
-  }
-  .nav.navbar-nav {
-    margin-top: 16px;
-    font-size: $large_font;
-    a:hover {
-      background-color: $hover-menu;
+body {
+  header {
+    &#navbar {
+      margin-bottom: 0;
+      border: none;
+      border-bottom: 1px solid $header-yellow;
+      background-color: $white;
     }
-  }
-  a {
-    color: $white;
-    text-transform: uppercase;
-    &.active {
-      background-color: #981500;
+    .navbar-header {
+      .logo {
+        img {
+          @media only screen and (max-width: 500px) {
+            width: 250px;
+          }
+        }
+      }
+      .navbar-toggle {
+        display: none;
+      }
+    }
+
+    #block-tb-megamenu-menu-site-wide {
+      box-shadow: 0 5px 10px $shadow-color;
+      background-color: #f58220;
+      .tb-megamenu .nav > li {
+        width: 25%;
+        text-align: center;
+        @media only screen and (max-width: 979px) {
+          width: 100%;
+          text-align: left;
+        }
+      }
+      ul.tb-megamenu-nav {
+        padding: 0 15%;
+      }
+      .tb-megamenu-nav > li > a {
+        background-color: $header-yellow;
+        border-right: none;
+        height: 50px;
+        overflow: hidden;
+        font-size: 15px;
+        &:hover {
+          color: $white;
+          border-bottom: 5px solid white;
+        }
+      }
+      .tb-megamenu-nav {
+        background-color: $header-yellow;
+        .tb-megamenu-submenu {
+          border-bottom-color: $header-yellow;
+          a {
+            &:hover {
+              color: $header-yellow;
+              border-color: $header-yellow;
+            }
+          }
+        }
+      }
+      .tb-megamenu-button {
+        position: absolute;
+        top: -45px;
+        z-index: 222222;
+        right: 10px;
+        background-image: linear-gradient(to bottom, $header-yellow, $header-yellow);
+        background-color: $header-yellow;
+      }
     }
   }
 }

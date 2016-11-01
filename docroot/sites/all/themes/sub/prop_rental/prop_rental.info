@@ -190,7 +190,6 @@ stylesheets[all][] = bootstrap-local/css/bootstrap.min.css
 
 stylesheets[all][] = css/header.css
 stylesheets[all][] = css/footer.css
-stylesheets[all][] = css/home.css
 stylesheets[all][] = css/basic_layout.css
 
 ;;;;;;;;;;;;;;;;;;

@@ -35,3 +35,15 @@ function pr_site_controller_install() {
 
   module_enable($modules);
 }
+
+/**
+ * Enable modules: .
+ */
+function pr_site_controller_update_7100() {
+  $modules = array(
+    'date',
+    'date_api',
+    'date_popup',
+  );
+  module_enable($modules);
+}

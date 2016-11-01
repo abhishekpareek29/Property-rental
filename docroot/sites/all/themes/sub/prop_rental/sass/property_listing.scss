@@ -1,0 +1,114 @@
+@import "variables";
+
+.view-views-property-listing {
+  .views-row {
+    .pl_wrapper {
+      padding: 10px;
+      margin: 10px;
+      background-color: #fff390;
+      .pl_image {
+        img {
+          margin: auto;
+        }
+      }
+      .pl_details {
+        margin: 10px 10%;
+        .pl_heading {
+          text-align: center;
+          .pl_title {
+            font-size: 20px;
+          }
+          .pl_locality {
+            color: $location_green;
+          }
+        }
+        .pl_sub_details {
+          display: inline-block;
+          width: 100%;
+          .pl_rent_area {
+            .pl_rent, .pl_area {
+              width: 49%;
+              color: $admin_black;
+              display: inline-block;
+              font-size: 17px;
+              font-weight: bold;
+            }
+            .pl_area {
+              text-align: right;
+            }
+          }
+          .pl_features {
+            .pl_parking, .pl_furnishing {
+              display: inline-block;
+              width: 49%;
+            }
+            .pl_furnishing {
+              text-align: right;
+            }
+          }
+          .pl_availability {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #e66300;
+          }
+          .pl_buttons {
+            text-align: center;
+            .pl_interested {
+              width: 49%;
+              padding: 10px;
+              cursor: pointer;
+              display: inline-block;
+            }
+            .pl_full_detail {
+              display: inline-block;
+              width: 49%;
+              padding: 10px;
+              a {
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#block-entityform-block-ef-interested-in-property {
+  z-index: 100;
+  display: none;
+  background-color: rgb(123, 116, 107);
+  background-color: rgba(123, 116, 107, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  .block-title {
+    display: none;
+  }
+  .entitytype-ef_interested_in_property-form {
+    border-radius: 20px;
+    background: white;
+    margin: 100px auto;
+    padding: 10px;
+    width: 30%;
+    .close-interested-form {
+      cursor: pointer;
+      width: 20px;
+      margin-left: auto;
+      padding: 5px;
+    }
+    #edit-submit {
+      width: 100%;
+      background-color: $site-footer;
+      color: $white;
+      font-size: 20px;
+    }
+  }
+}
+
+.pl-show-interested-form {
+  display: block !important;
+}

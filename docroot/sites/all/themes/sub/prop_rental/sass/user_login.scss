@@ -1,0 +1,226 @@
+@import "variables";
+
+.page-user {
+  .help-block {
+    display: none !important;
+  }
+  //Hiding Logintoboggan Module default message div.
+  #login-message {
+    display: none;
+  }
+  //Hiding Logintoboggan Module default Links div.
+  #login-links {
+    display: none;
+  }
+
+  .region-content {
+    overflow: hidden;
+    padding: 70px 0px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #484848;
+    // Registration and login form outer block.
+    .toboggan-unified {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      @media (min-width: 768px) {
+        max-width: 750px;
+      }
+      @media (min-width: 992px) {
+        max-width: 970px;
+      }
+      @media (min-width: 1200px) {
+        max-width: 1170px;
+      }
+    }
+    form {
+      padding: 20px 0;
+
+      .form-submit {
+        cursor: pointer;
+        color: #ffffff;
+        background-color: #f58220;
+        border-color: #f58220;
+        border-radius: 0px;
+        &:active, &:hover {
+          background-color: #f58220;
+          border-color: #f58220;
+        }
+      }
+    }
+
+    .form-group {
+      margin-bottom: 0;
+      label {
+        width: 41.66666%;
+        font-weight: normal;
+      }
+      .form-text {
+        width: 57.3333333%;
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        padding: 3px 7px;
+        margin-bottom: 7px;
+        // @include box-shadow(none);
+        height: 30px;
+      }
+      label, .form-text {
+        display: inline-block;
+        @media only screen and (max-width: 975px) {
+          width: 100%;
+        }
+      }
+    }
+
+    // Registration Form block.
+    .toboggan-unified.login #register-form {
+      display: block !important;
+      float: left;
+      width: 50%;
+      padding-right: 40px;
+      border-right: 1px solid #ddd;
+      position: relative;
+      min-height: 1px;
+      @media only screen and (max-width: 975px) {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+        border-right: 0;
+      }
+      &:before {
+        content: "Register";
+        font-size: 25px;
+        border-left: 10px solid #f58220;
+        padding: 8px 0 0 8px;
+        font-weight: normal;
+        font-family: 'Helvetica Neue LT Com', sans-serif;
+        text-transform: uppercase;
+      }
+      .form-actions {
+        padding-left: 225px;
+        padding-top: 20px;
+        @media only screen and (max-width: 975px) {
+          padding: 0;
+        }
+      }
+
+      .form-type-password-confirm {
+        .form-group {
+          padding: 0;
+          width: 100%;
+        }
+        .form-type-password {
+          .glyphicon {
+            top: 0px;
+            right: -30px;
+          }
+          .progress {
+            width: 42%;
+          }
+        }
+        .password-help {
+          display: none !important;
+        }
+        .password-help-ext {
+          display: none !important;
+        }
+      }
+    }
+
+    .toboggan-unified.login #login-form {
+      display: block !important;
+      float: right;
+      width: 50%;
+      position: relative;
+      min-height: 1px;
+      padding-left: 35px;
+      padding-right: 15px;
+      padding-bottom: 20px;
+      @media only screen and (max-width: 975px) {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+      &:before {
+        content: "Login";
+        font-size: 25px;
+        border-left: 10px solid #f58220;
+        padding: 8px 0 0 8px;
+        font-weight: normal;
+        font-family: 'Helvetica Neue LT Com', sans-serif;
+        text-transform: uppercase;
+      }
+
+      .login-forgot {
+        margin-left: 42.5%;
+        @media only screen and (max-width: 975px) {
+          margin: 10px 0;
+        }
+        a {
+          color: $purple;
+          font-weight: 500;
+        }
+      }
+
+      // Submit Button
+      .form-actions {
+        padding-left: 222px;
+        padding-top: 20px;
+        @media only screen and (max-width: 975px) {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+.page-user-password, .page-user-reset, .page-user-edit {
+  .main-container {
+    #block-system-main {
+      margin: 20px 25% 50px;
+      @media only screen and (max-width: 975px) {
+        margin: 20px 10% 50px;
+      }
+      form#user-pass {
+        .form-actions {
+          margin-left: 42.4%;
+          @media only screen and (max-width: 975px) {
+            margin: 0;
+          }
+        }
+        .form-item {
+          label, input {
+            @media only screen and (max-width: 975px) {
+              width: 100%;
+              padding-left: 0;
+            }
+          }
+        }
+      }
+      .form-actions {
+        margin: 10px;
+      }
+    }
+  }
+}
+
+.page-user-edit {
+  .form-type-password-confirm {
+    .form-type-password {
+      width: 100%;
+      padding: 0;
+    }
+    .glyphicon {
+      top: 0;
+    }
+  }
+  .form-actions {
+    text-align: center;
+  }
+  .password-help {
+    display: none !important;
+  }
+}

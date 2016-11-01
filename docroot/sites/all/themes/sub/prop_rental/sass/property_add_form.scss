@@ -1,0 +1,96 @@
+@import "variables";
+
+.page-node-add-ct-house-on-rent,
+.page-node-edit.node-type-ct-house-on-rent,
+.page-eform-submit-ef-post-your-requirement {
+  .main-container {
+    .row {
+      width: 80%;
+      margin: auto;
+      .node-ct_house_on_rent-form, .entitytype-ef_post_your_requirement-form {
+        .form-item {
+          label {
+            width: 19%;
+            display: inline-block;
+          }
+          input, select {
+            width: 80%;
+            display: inline-block;
+          }
+        }
+        .field-name-field-ct-hor-images {
+          .form-managed-file {
+            width: 80%;
+            display: inline-block;
+            input {
+              width: 100%;
+              display: block;
+            }
+          }
+          .help-block {
+            margin-left: 20%;
+          }
+        }
+        .field-name-field-ct-hor-locality, .field-name-field-ef-hr-locality {
+          select {
+            width: 39%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 6px 12px;
+            background-color: white;
+            margin: 3px;
+          }
+        }
+        .field-name-field-ef-hr-property-type,
+        .field-name-field-ef-hr-tenant-type {
+          select {
+            width: 79%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 6px 12px;
+            background-color: white;
+            margin: 3px;
+          }
+        }
+        .field-name-field-ef-hr-your-diet-type,
+        .field-name-field-ef-hr-no-of-members {
+          .form-item {
+            label {
+              width: 19%;
+            }
+          }
+        }
+        .field-type-list-boolean,
+        .field-type-list-text {
+          label {
+            width: 100%;
+          }
+          input {
+            width: 1%;
+            display: block;
+          }
+        }
+        .field-name-field-ct-hor-built-up-area,
+        .field-name-field-ct-hor-carpet-area {
+          input {
+            width: 75%;
+            margin-right: 2%;
+          }
+          .help-block {
+            display: inline-block;
+          }
+        }
+        .form-actions {
+          text-align: center;
+          button {
+            width: 30%;
+            border-radius: 0;
+            color: $white;
+            background-color: $site-orange;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

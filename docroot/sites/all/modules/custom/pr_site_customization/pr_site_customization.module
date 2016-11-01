@@ -8,6 +8,60 @@
 function pr_site_customization_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'ct_house_on_rent_node_form') {
     drupal_set_title('Post Your Property Online For Free');
-    $form['field_ct_hor_for_sale']['#access'] = 0;
+    // $form['field_ct_hor_for_sale']['#access'] = 0;
   }
+  if ($form_id == 'ef_interested_in_property_entityform_edit_form') {
+    $form['field_ef_interested_in_property']['#attributes']['class'][] = 'hidden';
+    $form['extra'] = array(
+      '#type' => 'markup',
+      '#markup' => 'X',
+      '#prefix' => '<div class="close-interested-form">',
+      '#suffix' => '</div>',
+    );
+  }
+}
+
+function pr_site_customization_theme() {
+  return array(
+    'footer_second_last' => array(
+      'template' => 'footer-second-last',
+      'path' => drupal_get_path('module', 'pr_site_customization') . '/templates',
+    ),
+  );
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function pr_site_customization_block_info() {
+  $blocks = array();
+  $blocks['footer_second_last_block'] = array(
+    'info' => t('Footer second last block'),
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pr_site_customization_block_view($delta='') {
+  $output = array();
+  switch($delta) {
+    case 'footer_second_last_block':
+      $output['subject'] = '';
+      $output['content'] = footer_block_contents();
+      break;
+  }
+
+  return $output;
+}
+
+function footer_block_contents() {
+  $variables['footer_menu_block'] = module_invoke('menu', 'block_view', 'menu-footer-menu');
+  $variables['contact_us_block'] = module_invoke('webform', 'block_view', 'client-block-5');
+
+  $block_output = theme('footer_second_last', $variables);
+
+  return $block_output;
 }
