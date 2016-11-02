@@ -22,7 +22,7 @@ body header #block-tb-megamenu-menu-site-wide {
 }
 /* line 27, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
-  width: 25%;
+  width: 20%;
   text-align: center;
 }
 @media only screen and (max-width: 979px) {
@@ -34,7 +34,7 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
 }
 /* line 35, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide ul.tb-megamenu-nav {
-  padding: 0 15%;
+  padding: 0 5%;
 }
 /* line 38, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {

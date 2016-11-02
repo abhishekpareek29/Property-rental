@@ -32,6 +32,9 @@
           }
         }
         .field-name-field-ct-hor-locality, .field-name-field-ef-hr-locality {
+          .shs-processed.element-invisible {
+            display: none;
+          }
           select {
             width: 39%;
             border: 1px solid #ccc;
@@ -43,6 +46,9 @@
         }
         .field-name-field-ef-hr-property-type,
         .field-name-field-ef-hr-tenant-type {
+          .shs-processed.element-invisible {
+            display: none;
+          }
           select {
             width: 79%;
             border: 1px solid #ccc;

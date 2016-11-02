@@ -7,12 +7,16 @@ body.front .main-container.container {
   margin: 0;
   width: 100%;
 }
-/* line 13, ../sass/home.scss */
-body.front .main-container.container #block-views-views-banners-banners-block .views-field-field-ct-banners-image img {
+/* line 12, ../sass/home.scss */
+body.front .main-container.container #block-views-views-banners-banners-block .views-row {
+  position: relative;
+}
+/* line 15, ../sass/home.scss */
+body.front .main-container.container #block-views-views-banners-banners-block .views-row .views-field-field-ct-banners-image img {
   width: 100%;
   max-height: 500px;
 }
-/* line 18, ../sass/home.scss */
+/* line 21, ../sass/home.scss */
 body.front .main-container.container #block-views-views-banners-banners-block .views-field-field-ct-banners-slogan {
   position: absolute;
   bottom: 0px;

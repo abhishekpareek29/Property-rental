@@ -9,10 +9,13 @@ body.front {
     margin: 0;
     width: 100%;
     #block-views-views-banners-banners-block {
-      .views-field-field-ct-banners-image {
-        img {
-          width: 100%;
-          max-height: 500px;
+      .views-row {
+        position: relative;
+        .views-field-field-ct-banners-image {
+          img {
+            width: 100%;
+            max-height: 500px;
+          }
         }
       }
       .views-field-field-ct-banners-slogan {
