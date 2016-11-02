@@ -38,12 +38,15 @@
             }
           }
           .pl_features {
+            min-height: 50px;
             .pl_parking, .pl_furnishing {
+              min-height: 50px;
+              text-align: center;
+              vertical-align: top;
+              border: 1px solid black;
+              padding: 5px;
               display: inline-block;
               width: 49%;
-            }
-            .pl_furnishing {
-              text-align: right;
             }
           }
           .pl_availability {

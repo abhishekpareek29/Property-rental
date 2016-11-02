@@ -13,6 +13,11 @@ body {
     border-left: 10px solid $site-orange;
     color: $header_color;
   }
+  h2.block-title {
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Helvetica Neue LT Com', sans-serif;
+  }
 
   &.html {
     > div, > header, > footer {

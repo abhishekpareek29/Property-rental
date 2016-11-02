@@ -1,0 +1,37 @@
+/* line 5, ../sass/property_page.scss */
+.page-node.node-type-ct-house-on-rent .main-container .region-content {
+  width: 80%;
+  margin: auto;
+}
+/* line 8, ../sass/property_page.scss */
+.page-node.node-type-ct-house-on-rent .main-container .region-content .field {
+  background: #fff390;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+/* line 12, ../sass/property_page.scss */
+.page-node.node-type-ct-house-on-rent .main-container .region-content .field.field-name-field-ct-hor-images {
+  display: block;
+  width: 100%;
+  background: white;
+  padding: 0;
+}
+
+/* line 23, ../sass/property_page.scss */
+#block-pr-site-customization-contact-home-owner-button {
+  margin-bottom: 20px;
+}
+/* line 25, ../sass/property_page.scss */
+#block-pr-site-customization-contact-home-owner-button .pl_buttons {
+  text-align: center;
+}
+/* line 27, ../sass/property_page.scss */
+#block-pr-site-customization-contact-home-owner-button .pl_buttons .pl_interested {
+  width: 49%;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=property_page.css.map */

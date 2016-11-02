@@ -41,45 +41,50 @@
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_rent_area .pl_area {
   text-align: right;
 }
-/* line 41, ../sass/property_listing.scss */
+/* line 40, ../sass/property_listing.scss */
+.view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features {
+  min-height: 50px;
+}
+/* line 42, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features .pl_parking, .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features .pl_furnishing {
+  min-height: 50px;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid black;
+  padding: 5px;
   display: inline-block;
   width: 49%;
 }
-/* line 45, ../sass/property_listing.scss */
-.view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features .pl_furnishing {
-  text-align: right;
-}
-/* line 49, ../sass/property_listing.scss */
+/* line 52, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_availability {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   color: #e66300;
 }
-/* line 55, ../sass/property_listing.scss */
+/* line 58, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons {
   text-align: center;
 }
-/* line 57, ../sass/property_listing.scss */
+/* line 60, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons .pl_interested {
   width: 49%;
   padding: 10px;
   cursor: pointer;
   display: inline-block;
 }
-/* line 63, ../sass/property_listing.scss */
+/* line 66, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons .pl_full_detail {
   display: inline-block;
   width: 49%;
   padding: 10px;
 }
-/* line 67, ../sass/property_listing.scss */
+/* line 70, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons .pl_full_detail a {
   color: #ffffff;
 }
 
-/* line 78, ../sass/property_listing.scss */
+/* line 81, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property {
   z-index: 100;
   display: none;
@@ -91,11 +96,11 @@
   height: 100%;
   width: 100%;
 }
-/* line 88, ../sass/property_listing.scss */
+/* line 91, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .block-title {
   display: none;
 }
-/* line 91, ../sass/property_listing.scss */
+/* line 94, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .entitytype-ef_interested_in_property-form {
   border-radius: 20px;
   background: white;
@@ -103,14 +108,14 @@
   padding: 10px;
   width: 30%;
 }
-/* line 97, ../sass/property_listing.scss */
+/* line 100, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .entitytype-ef_interested_in_property-form .close-interested-form {
   cursor: pointer;
   width: 20px;
   margin-left: auto;
   padding: 5px;
 }
-/* line 103, ../sass/property_listing.scss */
+/* line 106, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .entitytype-ef_interested_in_property-form #edit-submit {
   width: 100%;
   background-color: #095786;
@@ -118,7 +123,7 @@
   font-size: 20px;
 }
 
-/* line 112, ../sass/property_listing.scss */
+/* line 115, ../sass/property_listing.scss */
 .pl-show-interested-form {
   display: block !important;
 }

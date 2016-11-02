@@ -38,6 +38,9 @@ function pr_site_customization_block_info() {
   $blocks['footer_second_last_block'] = array(
     'info' => t('Footer second last block'),
   );
+  $blocks['contact_home_owner_button'] = array(
+    'info' => t('contact home owner button'),
+  );
 
   return $blocks;
 }
@@ -52,6 +55,10 @@ function pr_site_customization_block_view($delta='') {
       $output['subject'] = '';
       $output['content'] = footer_block_contents();
       break;
+    case 'contact_home_owner_button':
+      $output['subject'] = '';
+      $output['content'] = contact_home_owner_button();
+      break;
   }
 
   return $output;
@@ -64,4 +71,13 @@ function footer_block_contents() {
   $block_output = theme('footer_second_last', $variables);
 
   return $block_output;
+}
+
+function contact_home_owner_button() {
+  $nid = arg(1);
+  $output = '<div class="pl_buttons">';
+  $output .= '<div class="pl_interested btn-primary" data=' . $nid . '>Request Call back</div>';
+  $output .= '</div>';
+
+  return $output;
 }

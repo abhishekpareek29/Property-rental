@@ -1,0 +1,19 @@
+/* line 4, ../sass/user_account_page.scss */
+.page-user .user-picture {
+  width: 200px;
+}
+/* line 8, ../sass/user_account_page.scss */
+.page-user .field-name-field-user-name,
+.page-user .field-name-field-user-mobile-no {
+  border: 1px solid #202020;
+  margin-bottom: 2px;
+}
+/* line 13, ../sass/user_account_page.scss */
+.page-user h2.block-title {
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  background: #666699;
+}
+
+/*# sourceMappingURL=user_account_page.css.map */

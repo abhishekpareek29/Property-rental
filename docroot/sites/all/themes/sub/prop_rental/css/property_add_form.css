@@ -1,68 +1,68 @@
 /* line 7, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row,
-.page-eform-submit-ef-post-your-requirement .main-container .row {
+.page-node-add-ct-house-on-rent .main-container .region-content,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content {
   width: 80%;
   margin: auto;
 }
 /* line 12, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-item label, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-item label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-item label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-item label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .form-item label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .form-item label {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-item label, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-item label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .form-item label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item label {
   width: 19%;
   display: inline-block;
 }
 /* line 16, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-item input, .page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-item select, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-item input, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-item select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-item input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-item select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-item input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-item select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .form-item input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .form-item select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .form-item input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .form-item select {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-item input, .page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-item select, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item input, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-item input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-item select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .form-item input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .form-item select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .form-item select {
   width: 80%;
   display: inline-block;
 }
 /* line 22, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file {
   width: 80%;
   display: inline-block;
 }
 /* line 25, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file input, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file input {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file input, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .form-managed-file input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .form-managed-file input {
   width: 100%;
   display: block;
 }
 /* line 30, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .help-block, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .help-block,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .help-block,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .help-block,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-images .help-block,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .help-block {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .help-block, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .help-block,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .help-block,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .help-block,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-images .help-block,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-images .help-block {
   margin-left: 20%;
 }
 /* line 35, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-locality select, .page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-locality select, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-locality select, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-locality select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-locality select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-locality select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-locality select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-locality select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-locality select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-locality select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-locality select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-locality select {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-locality select, .page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-locality select, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-locality select, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-locality select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-locality select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-locality select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-locality select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-locality select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-locality select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-locality select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-locality select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-locality select {
   width: 39%;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -71,17 +71,17 @@
   margin: 3px;
 }
 /* line 46, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-property-type select,
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-tenant-type select, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-property-type select,
-.page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-tenant-type select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-property-type select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-tenant-type select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-property-type select,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-tenant-type select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-property-type select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-tenant-type select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-property-type select,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-tenant-type select {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-property-type select,
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-tenant-type select, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-property-type select,
+.page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-tenant-type select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-property-type select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-tenant-type select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-property-type select,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-tenant-type select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-property-type select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-tenant-type select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-property-type select,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-tenant-type select {
   width: 79%;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -90,91 +90,91 @@
   margin: 3px;
 }
 /* line 58, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-your-diet-type .form-item label,
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-no-of-members .form-item label, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-your-diet-type .form-item label,
-.page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-no-of-members .form-item label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-your-diet-type .form-item label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-no-of-members .form-item label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-your-diet-type .form-item label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-no-of-members .form-item label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-your-diet-type .form-item label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ef-hr-no-of-members .form-item label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-your-diet-type .form-item label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-no-of-members .form-item label {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-your-diet-type .form-item label,
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-no-of-members .form-item label, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-your-diet-type .form-item label,
+.page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-no-of-members .form-item label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-your-diet-type .form-item label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-no-of-members .form-item label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-your-diet-type .form-item label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-no-of-members .form-item label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-your-diet-type .form-item label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ef-hr-no-of-members .form-item label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-your-diet-type .form-item label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ef-hr-no-of-members .form-item label {
   width: 19%;
 }
 /* line 65, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-boolean label,
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-text label, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-boolean label,
-.page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-text label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-boolean label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-text label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-boolean label,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-text label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-type-list-boolean label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-type-list-text label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-boolean label,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-text label {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-boolean label,
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-text label, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-boolean label,
+.page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-text label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-boolean label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-text label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-boolean label,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-text label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-type-list-boolean label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-type-list-text label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-boolean label,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-text label {
   width: 100%;
 }
 /* line 68, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-boolean input,
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-text input, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-boolean input,
-.page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-text input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-boolean input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-type-list-text input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-boolean input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-text input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-type-list-boolean input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-type-list-text input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-boolean input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-type-list-text input {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-boolean input,
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-text input, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-boolean input,
+.page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-text input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-boolean input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-type-list-text input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-boolean input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-text input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-type-list-boolean input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-type-list-text input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-boolean input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-type-list-text input {
   width: 1%;
   display: block;
 }
 /* line 75, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area input,
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area input, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area input,
-.page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area input,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area input,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area input {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area input,
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area input, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area input,
+.page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area input,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area input,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area input {
   width: 75%;
   margin-right: 2%;
 }
 /* line 79, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area .help-block,
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area .help-block, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area .help-block,
-.page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area .help-block,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area .help-block,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area .help-block,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area .help-block,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area .help-block,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area .help-block,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area .help-block,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area .help-block,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area .help-block {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area .help-block,
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area .help-block, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area .help-block,
+.page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area .help-block,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area .help-block,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area .help-block,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area .help-block,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area .help-block,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-built-up-area .help-block,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .field-name-field-ct-hor-carpet-area .help-block,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-built-up-area .help-block,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .field-name-field-ct-hor-carpet-area .help-block {
   display: inline-block;
 }
 /* line 83, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-actions, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-actions,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-actions,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-actions,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .form-actions,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .form-actions {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-actions, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-actions,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-actions,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-actions,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .form-actions,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .form-actions {
   text-align: center;
 }
 /* line 85, ../sass/property_add_form.scss */
-.page-node-add-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-actions button, .page-node-add-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-actions button,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .node-ct_house_on_rent-form .form-actions button,
-.page-node-edit.node-type-ct-house-on-rent .main-container .row .entitytype-ef_post_your_requirement-form .form-actions button,
-.page-eform-submit-ef-post-your-requirement .main-container .row .node-ct_house_on_rent-form .form-actions button,
-.page-eform-submit-ef-post-your-requirement .main-container .row .entitytype-ef_post_your_requirement-form .form-actions button {
+.page-node-add-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-actions button, .page-node-add-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-actions button,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .node-ct_house_on_rent-form .form-actions button,
+.page-node-edit.node-type-ct-house-on-rent .main-container .region-content .entitytype-ef_post_your_requirement-form .form-actions button,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .node-ct_house_on_rent-form .form-actions button,
+.page-eform-submit-ef-post-your-requirement .main-container .region-content .entitytype-ef_post_your_requirement-form .form-actions button {
   width: 30%;
   border-radius: 0;
   color: white;

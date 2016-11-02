@@ -1,0 +1,19 @@
+@import "variables";
+
+.page-user {
+  .user-picture {
+    width: 200px;
+    // display: inline-block;
+  }
+  .field-name-field-user-name,
+  .field-name-field-user-mobile-no {
+    border: 1px solid $admin_black;
+    margin-bottom: 2px;
+  }
+  h2.block-title {
+    color: $white;
+    padding: 8px;
+    border-radius: 5px;
+    background: $purple;
+  }
+}

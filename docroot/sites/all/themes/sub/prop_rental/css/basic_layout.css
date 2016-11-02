@@ -12,25 +12,31 @@ body .page-header {
   border-left: 10px solid #f58220;
   color: #7b7b7b;
 }
-/* line 19, ../sass/basic_layout.scss */
+/* line 16, ../sass/basic_layout.scss */
+body h2.block-title {
+  font-weight: normal;
+  font-size: 25px;
+  font-family: 'Helvetica Neue LT Com', sans-serif;
+}
+/* line 24, ../sass/basic_layout.scss */
 body.html > div.container, body.html > header.container, body.html > footer.container {
   width: 100%;
   max-width: 100%;
   padding: 0;
   position: relative;
 }
-/* line 28, ../sass/basic_layout.scss */
+/* line 33, ../sass/basic_layout.scss */
 body #first-time {
   display: none;
 }
 
-/* line 33, ../sass/basic_layout.scss */
+/* line 38, ../sass/basic_layout.scss */
 div.row, .navbar-header, .navbar-collapse {
   margin: 0;
   padding: 0;
 }
 
-/* line 38, ../sass/basic_layout.scss */
+/* line 43, ../sass/basic_layout.scss */
 .front .page-header {
   display: none;
 }

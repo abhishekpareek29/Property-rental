@@ -1,0 +1,35 @@
+@import "variables";
+
+.page-node.node-type-ct-house-on-rent {
+  .main-container {
+    .region-content {
+      width: 80%;
+      margin: auto;
+      .field {
+        background: $light_yellow;
+        padding: 10px 20px;
+        margin: 10px 0px;
+        &.field-name-field-ct-hor-images {
+          display: block;
+          width: 100%;
+          background: white;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+#block-pr-site-customization-contact-home-owner-button {
+  margin-bottom: 20px;
+  .pl_buttons {
+    text-align: center;
+    .pl_interested {
+      width: 49%;
+      font-size: 20px;
+      padding: 10px;
+      cursor: pointer;
+      display: inline-block;
+    }
+  }
+}
