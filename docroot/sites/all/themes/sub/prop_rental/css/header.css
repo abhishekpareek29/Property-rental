@@ -5,38 +5,42 @@ body header#navbar {
   border-bottom: 1px solid #68231f;
   background-color: white;
 }
+/* line 13, ../sass/header.scss */
+body header .navbar-header .logo img {
+  width: 300px;
+}
 @media only screen and (max-width: 500px) {
   /* line 13, ../sass/header.scss */
   body header .navbar-header .logo img {
     width: 250px;
   }
 }
-/* line 19, ../sass/header.scss */
+/* line 20, ../sass/header.scss */
 body header .navbar-header .navbar-toggle {
   display: none;
 }
-/* line 24, ../sass/header.scss */
+/* line 25, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide {
   box-shadow: 0 5px 10px #949494;
   background-color: #f58220;
 }
-/* line 27, ../sass/header.scss */
+/* line 28, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
   width: 20%;
   text-align: center;
 }
 @media only screen and (max-width: 979px) {
-  /* line 27, ../sass/header.scss */
+  /* line 28, ../sass/header.scss */
   body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
     width: 100%;
     text-align: left;
   }
 }
-/* line 35, ../sass/header.scss */
+/* line 36, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide ul.tb-megamenu-nav {
   padding: 0 5%;
 }
-/* line 38, ../sass/header.scss */
+/* line 39, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
   background-color: #68231f;
   border-right: none;
@@ -44,25 +48,25 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
   overflow: hidden;
   font-size: 15px;
 }
-/* line 44, ../sass/header.scss */
+/* line 45, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a:hover {
   color: white;
   border-bottom: 5px solid white;
 }
-/* line 49, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav {
   background-color: #68231f;
 }
-/* line 51, ../sass/header.scss */
+/* line 52, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu {
   border-bottom-color: #68231f;
 }
-/* line 54, ../sass/header.scss */
+/* line 55, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu a:hover {
   color: #68231f;
   border-color: #68231f;
 }
-/* line 61, ../sass/header.scss */
+/* line 62, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-button {
   position: absolute;
   top: -45px;
