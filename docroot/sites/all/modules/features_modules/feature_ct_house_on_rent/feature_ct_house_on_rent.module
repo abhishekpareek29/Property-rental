@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Feature ct House on rent feature.
+ */
+
+include_once 'feature_ct_house_on_rent.features.inc';

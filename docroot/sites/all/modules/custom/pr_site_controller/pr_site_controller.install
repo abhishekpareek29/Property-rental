@@ -47,3 +47,14 @@ function pr_site_controller_update_7100() {
   );
   module_enable($modules);
 }
+
+/**
+ * Enable feature module: feature_ct_house_on_rent.
+ */
+function pr_site_controller_update_7101() {
+  $modules = array(
+    'feature_ct_house_on_rent',
+  );
+
+  module_enable($modules);
+}
