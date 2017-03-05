@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pr_view_list_property feature.
+ */
+
+include_once 'pr_view_list_property.features.inc';
