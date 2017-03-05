@@ -395,7 +395,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_ct_hor_maintenance',
     'label' => 'Maintenance',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'max' => '',
       'min' => '',
@@ -487,7 +487,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_ct_hor_monthly_rent',
     'label' => 'Monthly Rent',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'max' => '',
       'min' => '',
@@ -611,7 +611,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_ct_hor_security_deposit',
     'label' => 'Security Deposit',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'max' => '',
       'min' => '',
