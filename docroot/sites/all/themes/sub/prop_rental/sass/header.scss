@@ -26,7 +26,7 @@ body {
       box-shadow: 0 5px 10px $shadow-color;
       background-color: #f58220;
       .tb-megamenu .nav > li {
-        width: 20%;
+        flex: 1;
         text-align: center;
         @media only screen and (max-width: 979px) {
           width: 100%;
@@ -34,6 +34,7 @@ body {
         }
       }
       ul.tb-megamenu-nav {
+        display: flex;
         padding: 0 5%;
       }
       .tb-megamenu-nav > li > a {

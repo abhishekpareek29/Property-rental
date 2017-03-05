@@ -26,7 +26,7 @@ body header #block-tb-megamenu-menu-site-wide {
 }
 /* line 28, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
-  width: 20%;
+  flex: 1;
   text-align: center;
 }
 @media only screen and (max-width: 979px) {
@@ -38,9 +38,10 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu .nav > li {
 }
 /* line 36, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide ul.tb-megamenu-nav {
+  display: flex;
   padding: 0 5%;
 }
-/* line 39, ../sass/header.scss */
+/* line 40, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
   background-color: #68231f;
   border-right: none;
@@ -48,25 +49,25 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
   overflow: hidden;
   font-size: 15px;
 }
-/* line 45, ../sass/header.scss */
+/* line 46, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a:hover {
   color: white;
   border-bottom: 5px solid white;
 }
-/* line 50, ../sass/header.scss */
+/* line 51, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav {
   background-color: #68231f;
 }
-/* line 52, ../sass/header.scss */
+/* line 53, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu {
   border-bottom-color: #68231f;
 }
-/* line 55, ../sass/header.scss */
+/* line 56, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu a:hover {
   color: #68231f;
   border-color: #68231f;
 }
-/* line 62, ../sass/header.scss */
+/* line 63, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-button {
   position: absolute;
   top: -45px;
