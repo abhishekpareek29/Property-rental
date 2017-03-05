@@ -69,3 +69,15 @@ function pr_site_controller_update_7102() {
 
   module_enable($modules);
 }
+
+/**
+ * Enable module: diff.
+ */
+function pr_site_controller_update_7103() {
+  $modules = array(
+    'pr_view_list_property',
+    'pr_site_context',
+  );
+
+  module_enable($modules);
+}
