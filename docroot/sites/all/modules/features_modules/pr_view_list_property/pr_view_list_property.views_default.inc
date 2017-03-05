@@ -25,6 +25,7 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['title'] = 'Property Listing';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['access']['perm'] = 'administer users';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
@@ -505,6 +506,189 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['arguments']['uid']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['uid']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['uid']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Admin - Rental Showcase */
+  $handler = $view->new_display('page', 'Admin - Rental Showcase', 'page_1');
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'table';
+  $handler->display->display_options['style_options']['columns'] = array(
+    'path' => 'path',
+    'field_ct_hor_monthly_rent' => 'field_ct_hor_monthly_rent',
+    'field_ct_hor_locality' => 'field_ct_hor_locality',
+    'field_ct_hor_bhk_type' => 'field_ct_hor_bhk_type',
+    'field_ct_hor_property_type' => 'field_ct_hor_property_type',
+    'field_ct_hor_availability_from' => 'field_ct_hor_availability_from',
+    'field_ct_hor_tenant_type' => 'field_ct_hor_tenant_type',
+    'field_ct_hor_parking' => 'field_ct_hor_parking',
+    'field_ct_hor_furnishing' => 'field_ct_hor_furnishing',
+    'field_ct_hor_built_up_area' => 'field_ct_hor_built_up_area',
+  );
+  $handler->display->display_options['style_options']['default'] = '-1';
+  $handler->display->display_options['style_options']['info'] = array(
+    'path' => array(
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_monthly_rent' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_locality' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_bhk_type' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_property_type' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_availability_from' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_tenant_type' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_parking' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_furnishing' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+    'field_ct_hor_built_up_area' => array(
+      'sortable' => 0,
+      'default_sort_order' => 'asc',
+      'align' => '',
+      'separator' => '',
+      'empty_column' => 0,
+    ),
+  );
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  /* Field: Content: Path */
+  $handler->display->display_options['fields']['path']['id'] = 'path';
+  $handler->display->display_options['fields']['path']['table'] = 'node';
+  $handler->display->display_options['fields']['path']['field'] = 'path';
+  $handler->display->display_options['fields']['path']['label'] = '';
+  $handler->display->display_options['fields']['path']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['path']['element_label_colon'] = FALSE;
+  /* Field: Content: Monthly Rent */
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['id'] = 'field_ct_hor_monthly_rent';
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['table'] = 'field_data_field_ct_hor_monthly_rent';
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['field'] = 'field_ct_hor_monthly_rent';
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['alter']['text'] = '&#8377; [field_ct_hor_monthly_rent]';
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['settings'] = array(
+    'thousand_separator' => ',',
+    'prefix_suffix' => 1,
+  );
+  /* Field: Content: Locality */
+  $handler->display->display_options['fields']['field_ct_hor_locality']['id'] = 'field_ct_hor_locality';
+  $handler->display->display_options['fields']['field_ct_hor_locality']['table'] = 'field_data_field_ct_hor_locality';
+  $handler->display->display_options['fields']['field_ct_hor_locality']['field'] = 'field_ct_hor_locality';
+  $handler->display->display_options['fields']['field_ct_hor_locality']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_locality']['type'] = 'taxonomy_term_reference_plain';
+  /* Field: Content: BHK Type */
+  $handler->display->display_options['fields']['field_ct_hor_bhk_type']['id'] = 'field_ct_hor_bhk_type';
+  $handler->display->display_options['fields']['field_ct_hor_bhk_type']['table'] = 'field_data_field_ct_hor_bhk_type';
+  $handler->display->display_options['fields']['field_ct_hor_bhk_type']['field'] = 'field_ct_hor_bhk_type';
+  $handler->display->display_options['fields']['field_ct_hor_bhk_type']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_bhk_type']['type'] = 'taxonomy_term_reference_plain';
+  /* Field: Content: Property Type */
+  $handler->display->display_options['fields']['field_ct_hor_property_type']['id'] = 'field_ct_hor_property_type';
+  $handler->display->display_options['fields']['field_ct_hor_property_type']['table'] = 'field_data_field_ct_hor_property_type';
+  $handler->display->display_options['fields']['field_ct_hor_property_type']['field'] = 'field_ct_hor_property_type';
+  $handler->display->display_options['fields']['field_ct_hor_property_type']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_property_type']['type'] = 'taxonomy_term_reference_plain';
+  /* Field: Content: Availability from */
+  $handler->display->display_options['fields']['field_ct_hor_availability_from']['id'] = 'field_ct_hor_availability_from';
+  $handler->display->display_options['fields']['field_ct_hor_availability_from']['table'] = 'field_data_field_ct_hor_availability_from';
+  $handler->display->display_options['fields']['field_ct_hor_availability_from']['field'] = 'field_ct_hor_availability_from';
+  $handler->display->display_options['fields']['field_ct_hor_availability_from']['label'] = 'Available from';
+  $handler->display->display_options['fields']['field_ct_hor_availability_from']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_availability_from']['settings'] = array(
+    'format_type' => 'date_simple_format',
+    'fromto' => 'both',
+    'multiple_number' => '',
+    'multiple_from' => '',
+    'multiple_to' => '',
+    'show_remaining_days' => 0,
+  );
+  /* Field: Content: Tenant Type */
+  $handler->display->display_options['fields']['field_ct_hor_tenant_type']['id'] = 'field_ct_hor_tenant_type';
+  $handler->display->display_options['fields']['field_ct_hor_tenant_type']['table'] = 'field_data_field_ct_hor_tenant_type';
+  $handler->display->display_options['fields']['field_ct_hor_tenant_type']['field'] = 'field_ct_hor_tenant_type';
+  $handler->display->display_options['fields']['field_ct_hor_tenant_type']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_tenant_type']['type'] = 'taxonomy_term_reference_plain';
+  /* Field: Content: Parking */
+  $handler->display->display_options['fields']['field_ct_hor_parking']['id'] = 'field_ct_hor_parking';
+  $handler->display->display_options['fields']['field_ct_hor_parking']['table'] = 'field_data_field_ct_hor_parking';
+  $handler->display->display_options['fields']['field_ct_hor_parking']['field'] = 'field_ct_hor_parking';
+  $handler->display->display_options['fields']['field_ct_hor_parking']['element_label_colon'] = FALSE;
+  /* Field: Content: Furnishing */
+  $handler->display->display_options['fields']['field_ct_hor_furnishing']['id'] = 'field_ct_hor_furnishing';
+  $handler->display->display_options['fields']['field_ct_hor_furnishing']['table'] = 'field_data_field_ct_hor_furnishing';
+  $handler->display->display_options['fields']['field_ct_hor_furnishing']['field'] = 'field_ct_hor_furnishing';
+  $handler->display->display_options['fields']['field_ct_hor_furnishing']['element_label_colon'] = FALSE;
+  /* Field: Content: Built Up Area */
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['id'] = 'field_ct_hor_built_up_area';
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['table'] = 'field_data_field_ct_hor_built_up_area';
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['field'] = 'field_ct_hor_built_up_area';
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['alter']['text'] = '[field_ct_hor_built_up_area] sqft';
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['settings'] = array(
+    'thousand_separator' => '',
+    'prefix_suffix' => 1,
+  );
+  /* Field: Content: Complete Address */
+  $handler->display->display_options['fields']['field_ct_hor_address']['id'] = 'field_ct_hor_address';
+  $handler->display->display_options['fields']['field_ct_hor_address']['table'] = 'field_data_field_ct_hor_address';
+  $handler->display->display_options['fields']['field_ct_hor_address']['field'] = 'field_ct_hor_address';
+  /* Field: Content: Edit link */
+  $handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
+  $handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
+  $handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
+  $handler->display->display_options['fields']['edit_node']['label'] = 'Edit';
+  $handler->display->display_options['path'] = 'admin/rental-listings';
   $export['views_property_listing'] = $view;
 
   return $export;
