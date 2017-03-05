@@ -3,33 +3,34 @@
   padding: 10px;
   margin: 10px;
   background-color: #fff390;
+  min-height: 470px;
 }
-/* line 10, ../sass/property_listing.scss */
+/* line 11, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_image img {
   margin: auto;
 }
-/* line 14, ../sass/property_listing.scss */
+/* line 15, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details {
   margin: 10px 10%;
 }
-/* line 16, ../sass/property_listing.scss */
+/* line 17, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_heading {
   text-align: center;
 }
-/* line 18, ../sass/property_listing.scss */
+/* line 19, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_heading .pl_title {
   font-size: 20px;
 }
-/* line 21, ../sass/property_listing.scss */
+/* line 22, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_heading .pl_locality {
   color: #649216;
 }
-/* line 25, ../sass/property_listing.scss */
+/* line 26, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details {
   display: inline-block;
   width: 100%;
 }
-/* line 29, ../sass/property_listing.scss */
+/* line 30, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_rent_area .pl_rent, .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_rent_area .pl_area {
   width: 49%;
   color: #202020;
@@ -37,15 +38,15 @@
   font-size: 17px;
   font-weight: bold;
 }
-/* line 36, ../sass/property_listing.scss */
+/* line 37, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_rent_area .pl_area {
   text-align: right;
 }
-/* line 40, ../sass/property_listing.scss */
+/* line 41, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features {
   min-height: 50px;
 }
-/* line 42, ../sass/property_listing.scss */
+/* line 43, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features .pl_parking, .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_features .pl_furnishing {
   min-height: 50px;
   text-align: center;
@@ -55,36 +56,36 @@
   display: inline-block;
   width: 49%;
 }
-/* line 52, ../sass/property_listing.scss */
+/* line 53, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_availability {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   color: #e66300;
 }
-/* line 58, ../sass/property_listing.scss */
+/* line 59, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons {
   text-align: center;
 }
-/* line 60, ../sass/property_listing.scss */
+/* line 61, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons .pl_interested {
   width: 49%;
   padding: 10px;
   cursor: pointer;
   display: inline-block;
 }
-/* line 66, ../sass/property_listing.scss */
+/* line 67, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons .pl_full_detail {
   display: inline-block;
   width: 49%;
   padding: 10px;
 }
-/* line 70, ../sass/property_listing.scss */
+/* line 71, ../sass/property_listing.scss */
 .view-views-property-listing .views-row .pl_wrapper .pl_details .pl_sub_details .pl_buttons .pl_full_detail a {
   color: #ffffff;
 }
 
-/* line 81, ../sass/property_listing.scss */
+/* line 82, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property {
   z-index: 100;
   display: none;
@@ -96,11 +97,11 @@
   height: 100%;
   width: 100%;
 }
-/* line 91, ../sass/property_listing.scss */
+/* line 92, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .block-title {
   display: none;
 }
-/* line 94, ../sass/property_listing.scss */
+/* line 95, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .entitytype-ef_interested_in_property-form {
   border-radius: 20px;
   background: white;
@@ -108,14 +109,14 @@
   padding: 10px;
   width: 30%;
 }
-/* line 100, ../sass/property_listing.scss */
+/* line 101, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .entitytype-ef_interested_in_property-form .close-interested-form {
   cursor: pointer;
   width: 20px;
   margin-left: auto;
   padding: 5px;
 }
-/* line 106, ../sass/property_listing.scss */
+/* line 107, ../sass/property_listing.scss */
 #block-entityform-block-ef-interested-in-property .entitytype-ef_interested_in_property-form #edit-submit {
   width: 100%;
   background-color: #095786;
@@ -123,7 +124,7 @@
   font-size: 20px;
 }
 
-/* line 115, ../sass/property_listing.scss */
+/* line 116, ../sass/property_listing.scss */
 .pl-show-interested-form {
   display: block !important;
 }
