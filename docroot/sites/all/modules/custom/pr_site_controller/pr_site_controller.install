@@ -58,3 +58,14 @@ function pr_site_controller_update_7101() {
 
   module_enable($modules);
 }
+
+/**
+ * Enable module: diff.
+ */
+function pr_site_controller_update_7102() {
+  $modules = array(
+    'diff',
+  );
+
+  module_enable($modules);
+}
