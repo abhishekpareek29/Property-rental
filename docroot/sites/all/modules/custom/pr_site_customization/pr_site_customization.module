@@ -41,6 +41,9 @@ function pr_site_customization_block_info() {
   $blocks['contact_home_owner_button'] = array(
     'info' => t('contact home owner button'),
   );
+  $blocks['register_for_free'] = array(
+    'info' => t('Register for free'),
+  );
 
   return $blocks;
 }
@@ -59,9 +62,24 @@ function pr_site_customization_block_view($delta='') {
       $output['subject'] = '';
       $output['content'] = contact_home_owner_button();
       break;
+    case 'register_for_free':
+      $output['subject'] = '';
+      $output['content'] = register_for_free();
+      break;
   }
 
   return $output;
+}
+
+function register_for_free() {
+  if (user_is_anonymous()) {
+    $block_output = '<a class="register-for-free-link" href="/user">Register For Free</a>';
+  }
+  else {
+    $block_output = '<a class="register-for-free-link" href="/list-your-property">Post Property For Free</a>';
+  }
+
+  return $block_output;
 }
 
 function footer_block_contents() {

@@ -76,5 +76,22 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu-button {
   background-image: linear-gradient(to bottom, #68231f, #68231f);
   background-color: #68231f;
 }
+/* line 73, ../sass/header.scss */
+body header #block-pr-site-customization-register-for-free {
+  width: 20%;
+  float: right;
+  margin-top: 50px;
+}
+/* line 77, ../sass/header.scss */
+body header #block-pr-site-customization-register-for-free .register-for-free-link {
+  padding: 10px;
+  background: #ffbc49;
+  border-radius: 5px;
+  color: white;
+}
+/* line 82, ../sass/header.scss */
+body header #block-pr-site-customization-register-for-free .register-for-free-link:hover {
+  background: #ffa100;
+}
 
 /*# sourceMappingURL=header.css.map */

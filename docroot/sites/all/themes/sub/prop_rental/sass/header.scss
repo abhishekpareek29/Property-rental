@@ -69,5 +69,21 @@ body {
         background-color: $header-yellow;
       }
     }
+
+    #block-pr-site-customization-register-for-free {
+      width: 20%;
+      float: right;
+      margin-top: 50px;
+      .register-for-free-link {
+        padding: 10px;
+        background: $bhagva_light;
+        border-radius: 5px;
+        color: white;
+        &:hover {
+          background: $bhagva_dark;
+        }
+      }
+    }
+
   }
 }
