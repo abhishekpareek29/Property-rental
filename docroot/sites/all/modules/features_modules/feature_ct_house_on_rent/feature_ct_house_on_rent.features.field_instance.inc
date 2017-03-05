@@ -276,7 +276,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
   $field_instances['node-ct_house_on_rent-field_ct_hor_images'] = array(
     'bundle' => 'ct_house_on_rent',
     'deleted' => 0,
-    'description' => '*Upload images that are less than 2 MB',
+    'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -302,7 +302,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 19,
-      'file_directory' => '',
+      'file_directory' => 'rental_home_pics/[current-date:custom:d_M_Y]',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
@@ -748,7 +748,6 @@ function feature_ct_house_on_rent_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('*Upload images that are less than 2 MB');
   t('Agree to Terms and conditions');
   t('Availability from');
   t('BHK Type');
