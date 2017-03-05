@@ -128,7 +128,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_ct_hor_bhk_type',
-    'label' => 'BHK Type',
+    'label' => 'Space',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -750,7 +750,6 @@ function feature_ct_house_on_rent_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Agree to Terms and conditions');
   t('Availability from');
-  t('BHK Type');
   t('Built Up Area');
   t('Carpet Area');
   t('Click to know about <a href="/terms-and-conditions">terms and conditions</a>.');
@@ -764,6 +763,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
   t('Parking');
   t('Property Type');
   t('Security Deposit');
+  t('Space');
   t('Tenant Type');
   t('Vegetarian or Non Vegetarian Tenant');
   t('sqft');
