@@ -81,3 +81,10 @@ function pr_site_controller_update_7103() {
 
   module_enable($modules);
 }
+
+/**
+ * Revert feature module: pr_view_list_property.
+ */
+function pr_site_controller_update_7104() {
+  features_revert_module('pr_view_list_property');
+}
