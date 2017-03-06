@@ -73,7 +73,7 @@ function pr_site_customization_block_view($delta='') {
 
 function register_for_free() {
   if (user_is_anonymous()) {
-    $block_output = '<a class="register-for-free-link" href="/user">Register For Free</a>';
+    $block_output = '<a class="register-for-free-link" href="/user">Free Registration</a>';
   }
   else {
     $block_output = '<a class="register-for-free-link" href="/list-your-property">Post Property For Free</a>';
