@@ -24,8 +24,7 @@ function pr_view_list_property_views_default_views() {
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'Property Listing';
   $handler->display->display_options['use_more_always'] = FALSE;
-  $handler->display->display_options['access']['type'] = 'perm';
-  $handler->display->display_options['access']['perm'] = 'administer users';
+  $handler->display->display_options['access']['type'] = 'none';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
@@ -81,7 +80,7 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['fields']['field_ct_hor_locality']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['type'] = 'taxonomy_term_reference_plain';
-  /* Field: Content: BHK Type */
+  /* Field: Content: Space */
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['id'] = 'field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['table'] = 'field_data_field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['field'] = 'field_ct_hor_bhk_type';
@@ -245,7 +244,7 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['fields']['field_ct_hor_locality']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['type'] = 'taxonomy_term_reference_plain';
-  /* Field: Content: BHK Type */
+  /* Field: Content: Space */
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['id'] = 'field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['table'] = 'field_data_field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['field'] = 'field_ct_hor_bhk_type';
@@ -394,7 +393,7 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['fields']['field_ct_hor_locality']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['type'] = 'taxonomy_term_reference_plain';
-  /* Field: Content: BHK Type */
+  /* Field: Content: Space */
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['id'] = 'field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['table'] = 'field_data_field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['field'] = 'field_ct_hor_bhk_type';
@@ -509,6 +508,11 @@ function pr_view_list_property_views_default_views() {
 
   /* Display: Admin - Rental Showcase */
   $handler = $view->new_display('page', 'Admin - Rental Showcase', 'page_1');
+  $handler->display->display_options['defaults']['access'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'role';
+  $handler->display->display_options['access']['role'] = array(
+    3 => '3',
+  );
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'table';
   $handler->display->display_options['style_options']['columns'] = array(
@@ -626,7 +630,7 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['fields']['field_ct_hor_locality']['field'] = 'field_ct_hor_locality';
   $handler->display->display_options['fields']['field_ct_hor_locality']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_ct_hor_locality']['type'] = 'taxonomy_term_reference_plain';
-  /* Field: Content: BHK Type */
+  /* Field: Content: Space */
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['id'] = 'field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['table'] = 'field_data_field_ct_hor_bhk_type';
   $handler->display->display_options['fields']['field_ct_hor_bhk_type']['field'] = 'field_ct_hor_bhk_type';
