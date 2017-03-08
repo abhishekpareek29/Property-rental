@@ -108,3 +108,18 @@ function pr_site_controller_update_7105() {
   features_revert_module('feature_ct_house_on_rent');
 
 }
+
+/**
+ * Enable module: slick.
+ * Revert feature: property listings.
+ */
+function pr_site_controller_update_7106() {
+  $modules = array(
+    'slick',
+    'slick_ui',
+  );
+  module_enable($modules);
+
+  // Revert rules configurations.
+  features_revert_module('pr_view_list_property');
+}

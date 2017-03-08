@@ -672,26 +672,30 @@ function pr_view_list_property_views_default_views() {
   $handler->display->display_options['fields']['field_ct_hor_furnishing']['table'] = 'field_data_field_ct_hor_furnishing';
   $handler->display->display_options['fields']['field_ct_hor_furnishing']['field'] = 'field_ct_hor_furnishing';
   $handler->display->display_options['fields']['field_ct_hor_furnishing']['element_label_colon'] = FALSE;
-  /* Field: Content: Built Up Area */
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['id'] = 'field_ct_hor_built_up_area';
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['table'] = 'field_data_field_ct_hor_built_up_area';
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['field'] = 'field_ct_hor_built_up_area';
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['alter']['text'] = '[field_ct_hor_built_up_area] sqft';
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_ct_hor_built_up_area']['settings'] = array(
-    'thousand_separator' => '',
-    'prefix_suffix' => 1,
-  );
   /* Field: Content: Complete Address */
   $handler->display->display_options['fields']['field_ct_hor_address']['id'] = 'field_ct_hor_address';
   $handler->display->display_options['fields']['field_ct_hor_address']['table'] = 'field_data_field_ct_hor_address';
   $handler->display->display_options['fields']['field_ct_hor_address']['field'] = 'field_ct_hor_address';
+  /* Field: Content: Published */
+  $handler->display->display_options['fields']['status']['id'] = 'status';
+  $handler->display->display_options['fields']['status']['table'] = 'node';
+  $handler->display->display_options['fields']['status']['field'] = 'status';
+  $handler->display->display_options['fields']['status']['type'] = 'unicode-yes-no';
+  $handler->display->display_options['fields']['status']['not'] = 0;
   /* Field: Content: Edit link */
   $handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
   $handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
   $handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
   $handler->display->display_options['fields']['edit_node']['label'] = 'Edit';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'ct_house_on_rent' => 'ct_house_on_rent',
+  );
   $handler->display->display_options['path'] = 'admin/rental-listings';
   $export['views_property_listing'] = $view;
 
