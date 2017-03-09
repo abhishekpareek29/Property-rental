@@ -10,6 +10,7 @@ dependencies[] = list
 dependencies[] = number
 dependencies[] = options
 dependencies[] = shs
+dependencies[] = slick_fields
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text

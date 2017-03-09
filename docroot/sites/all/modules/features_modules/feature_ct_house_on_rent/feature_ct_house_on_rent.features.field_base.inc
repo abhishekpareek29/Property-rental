@@ -145,7 +145,7 @@ function feature_ct_house_on_rent_field_default_field_bases() {
   // Exported field_base: 'field_ct_hor_images'.
   $field_bases['field_ct_hor_images'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => 3,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_ct_hor_images',
