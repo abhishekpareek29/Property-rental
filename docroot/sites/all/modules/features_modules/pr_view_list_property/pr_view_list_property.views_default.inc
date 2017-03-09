@@ -59,6 +59,8 @@ function pr_view_list_property_views_default_views() {
     'image_style' => 'img_style_property_listing',
     'image_link' => 'content',
   );
+  $handler->display->display_options['fields']['field_ct_hor_images']['delta_limit'] = '1';
+  $handler->display->display_options['fields']['field_ct_hor_images']['delta_offset'] = '0';
   /* Field: Content: Monthly Rent */
   $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['id'] = 'field_ct_hor_monthly_rent';
   $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['table'] = 'field_data_field_ct_hor_monthly_rent';
@@ -224,6 +226,8 @@ function pr_view_list_property_views_default_views() {
     'image_style' => 'img_style_property_listing',
     'image_link' => 'content',
   );
+  $handler->display->display_options['fields']['field_ct_hor_images']['delta_limit'] = '1';
+  $handler->display->display_options['fields']['field_ct_hor_images']['delta_offset'] = '0';
   /* Field: Content: Monthly Rent */
   $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['id'] = 'field_ct_hor_monthly_rent';
   $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['table'] = 'field_data_field_ct_hor_monthly_rent';
@@ -372,6 +376,8 @@ function pr_view_list_property_views_default_views() {
     'image_style' => 'img_style_property_listing',
     'image_link' => 'content',
   );
+  $handler->display->display_options['fields']['field_ct_hor_images']['delta_limit'] = '1';
+  $handler->display->display_options['fields']['field_ct_hor_images']['delta_offset'] = '0';
   /* Field: Content: Monthly Rent */
   $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['id'] = 'field_ct_hor_monthly_rent';
   $handler->display->display_options['fields']['field_ct_hor_monthly_rent']['table'] = 'field_data_field_ct_hor_monthly_rent';
