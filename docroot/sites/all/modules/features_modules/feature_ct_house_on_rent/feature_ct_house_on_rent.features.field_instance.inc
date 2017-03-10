@@ -235,6 +235,86 @@ function feature_ct_house_on_rent_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance:
+  // 'node-ct_house_on_rent-field_ct_hor_contact_number'.
+  $field_instances['node-ct_house_on_rent-field_ct_hor_contact_number'] = array(
+    'bundle' => 'ct_house_on_rent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 18,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ct_hor_contact_number',
+    'label' => 'Contact number',
+    'required' => 1,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 19,
+    ),
+  );
+
+  // Exported field_instance: 'node-ct_house_on_rent-field_ct_hor_email'.
+  $field_instances['node-ct_house_on_rent-field_ct_hor_email'] = array(
+    'bundle' => 'ct_house_on_rent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'email',
+        'settings' => array(),
+        'type' => 'email_default',
+        'weight' => 17,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ct_hor_email',
+    'label' => 'Email',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'email',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'email_textfield',
+      'weight' => 18,
+    ),
+  );
+
   // Exported field_instance: 'node-ct_house_on_rent-field_ct_hor_furnishing'.
   $field_instances['node-ct_house_on_rent-field_ct_hor_furnishing'] = array(
     'bundle' => 'ct_house_on_rent',
@@ -758,7 +838,7 @@ function feature_ct_house_on_rent_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 18,
+      'weight' => 20,
     ),
   );
 
@@ -808,6 +888,8 @@ function feature_ct_house_on_rent_field_default_field_instances() {
   t('Carpet Area');
   t('Click to know about <a href="/terms-and-conditions">terms and conditions</a>.');
   t('Complete Address');
+  t('Contact number');
+  t('Email');
   t('Furnishing');
   t('Images');
   t('Locality');

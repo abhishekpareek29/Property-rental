@@ -123,3 +123,18 @@ function pr_site_controller_update_7106() {
   // Revert rules configurations.
   features_revert_module('pr_view_list_property');
 }
+
+/**
+ * Enable module: honeypot and visitors.
+ * Revert feature: property listings.
+ */
+function pr_site_controller_update_7107() {
+  $modules = array(
+    'honeypot',
+    'visitors',
+  );
+  module_enable($modules);
+
+  // Revert ct feature.
+  features_revert_module('feature_ct_house_on_rent');
+}

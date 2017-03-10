@@ -116,6 +116,42 @@ function feature_ct_house_on_rent_field_default_field_bases() {
     'type' => 'number_integer',
   );
 
+  // Exported field_base: 'field_ct_hor_contact_number'.
+  $field_bases['field_ct_hor_contact_number'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_ct_hor_contact_number',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'field_ct_hor_email'.
+  $field_bases['field_ct_hor_email'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_ct_hor_email',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'email',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'email',
+  );
+
   // Exported field_base: 'field_ct_hor_furnishing'.
   $field_bases['field_ct_hor_furnishing'] = array(
     'active' => 1,
