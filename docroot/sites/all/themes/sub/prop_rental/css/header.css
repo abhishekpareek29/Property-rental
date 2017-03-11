@@ -41,7 +41,14 @@ body header #block-tb-megamenu-menu-site-wide ul.tb-megamenu-nav {
   display: flex;
   padding: 0 5%;
 }
-/* line 40, ../sass/header.scss */
+@media only screen and (max-width: 1024px) {
+  /* line 36, ../sass/header.scss */
+  body header #block-tb-megamenu-menu-site-wide ul.tb-megamenu-nav {
+    display: block;
+    padding: 0;
+  }
+}
+/* line 44, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
   background-color: #68231f;
   border-right: none;
@@ -49,25 +56,25 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a {
   overflow: hidden;
   font-size: 15px;
 }
-/* line 46, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav > li > a:hover {
   color: white;
   border-bottom: 5px solid white;
 }
-/* line 51, ../sass/header.scss */
+/* line 55, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav {
   background-color: #68231f;
 }
-/* line 53, ../sass/header.scss */
+/* line 57, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu {
   border-bottom-color: #68231f;
 }
-/* line 56, ../sass/header.scss */
+/* line 60, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-nav .tb-megamenu-submenu a:hover {
   color: #68231f;
   border-color: #68231f;
 }
-/* line 63, ../sass/header.scss */
+/* line 67, ../sass/header.scss */
 body header #block-tb-megamenu-menu-site-wide .tb-megamenu-button {
   position: absolute;
   top: -45px;
@@ -76,20 +83,20 @@ body header #block-tb-megamenu-menu-site-wide .tb-megamenu-button {
   background-image: linear-gradient(to bottom, #68231f, #68231f);
   background-color: #68231f;
 }
-/* line 73, ../sass/header.scss */
+/* line 77, ../sass/header.scss */
 body header #block-pr-site-customization-register-for-free {
-  width: 20%;
+  width: 30%;
   float: right;
   margin-top: 50px;
 }
-/* line 77, ../sass/header.scss */
+/* line 81, ../sass/header.scss */
 body header #block-pr-site-customization-register-for-free .register-for-free-link {
   padding: 10px;
   background: #ffbc49;
   border-radius: 5px;
   color: white;
 }
-/* line 82, ../sass/header.scss */
+/* line 86, ../sass/header.scss */
 body header #block-pr-site-customization-register-for-free .register-for-free-link:hover {
   background: #ffa100;
 }

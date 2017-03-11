@@ -36,6 +36,10 @@ body {
       ul.tb-megamenu-nav {
         display: flex;
         padding: 0 5%;
+        @media only screen and (max-width: 1024px) {
+          display: block;
+          padding: 0;
+        }
       }
       .tb-megamenu-nav > li > a {
         background-color: $header-yellow;
@@ -71,7 +75,7 @@ body {
     }
 
     #block-pr-site-customization-register-for-free {
-      width: 20%;
+      width: 30%;
       float: right;
       margin-top: 50px;
       .register-for-free-link {

@@ -171,7 +171,7 @@ function pr_view_list_property_views_default_views() {
     </div>
     <div class="pl_availability">Available from: [field_ct_hor_availability_from] for [field_ct_hor_tenant_type]</div>
    <div class="pl_buttons">
-     <div class="pl_full_detail btn-warning"><a href="[path]">See full detail</a></div>
+     <div class="pl_full_detail btn-warning"><a href="[path]">See details</a></div>
    </div>
   </div>
   </div>
@@ -337,7 +337,7 @@ function pr_view_list_property_views_default_views() {
     </div>
     <div class="pl_availability">Available from: [field_ct_hor_availability_from] for [field_ct_hor_tenant_type]</div>
    <div class="pl_buttons">
-     <div class="pl_full_detail btn-warning"><a href="[path]">See full detail</a></div>
+     <div class="pl_full_detail btn-warning"><a href="[path]">See details</a></div>
      <div class="pl_interested btn-primary" data=[nid]>Interested</div>
    </div>
   </div>
@@ -488,7 +488,7 @@ function pr_view_list_property_views_default_views() {
     </div>
     <div class="pl_availability">Available from: [field_ct_hor_availability_from] for [field_ct_hor_tenant_type]</div>
    <div class="pl_buttons">
-     <div class="pl_full_detail btn-warning"><a href="[path]">See full detail</a></div>
+     <div class="pl_full_detail btn-warning"><a href="[path]">See details</a></div>
      <div class="pl_interested btn-primary" data=[nid]>Interested</div>
    </div>
   </div>

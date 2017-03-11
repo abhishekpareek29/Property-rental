@@ -12,6 +12,12 @@ body {
     text-transform: uppercase;
     border-left: 10px solid $site-orange;
     color: $header_color;
+    @media only screen and (max-width: 768px) {
+      font-size: 25px;
+    }
+    @media only screen and (max-width: 425px) {
+      font-size: 20px;
+    }
   }
   h2.block-title {
     font-weight: normal;
