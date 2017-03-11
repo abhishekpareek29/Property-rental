@@ -10,7 +10,7 @@
 function feature_rules_send_notify_interested_default_rules_configuration() {
   $items = array();
   $items['rules_send_notification_tenant_form'] = entity_import('rules_config', '{ "rules_send_notification_tenant_form" : {
-      "LABEL" : "Send notification (tenant form)",
+      "LABEL" : "Send notification (interested form)",
       "PLUGIN" : "reaction rule",
       "OWNER" : "rules",
       "REQUIRES" : [ "rules", "entityform" ],
@@ -27,7 +27,7 @@ function feature_rules_send_notify_interested_default_rules_configuration() {
         { "mail_to_users_of_role" : {
             "roles" : { "value" : { "3" : "3" } },
             "subject" : "RentHomeIndia: Notify submission of Interested in Rental home",
-            "message" : "Hi there,\\r\\n\\r\\nThis is a notification mail from site stating that someone has just submitted a Interested in a property form, please review the form immediately here: [site:url]\\/admin\\/structure\\/entityform_types\\/manage\\/ef_post_your_requirement\\/submissions\\/autofields_table\\r\\n\\r\\nThankyou !",
+            "message" : "Hello Admin,\\r\\n\\r\\nThis is a notification mail from site stating that someone has just submitted a Interested in a property form, please review the form immediately here: [site:url]\\/admin\\/structure\\/entityform_types\\/manage\\/ef_interested_in_property\\/submissions\\/autofields_table\\r\\n\\r\\nThankyou !",
             "from" : "[site:mail]"
           }
         }

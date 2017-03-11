@@ -1,0 +1,8 @@
+name = feature_rules_new_user_notify
+core = 7.x
+package = Rules
+version = 7.x-1.0
+dependencies[] = entity
+dependencies[] = rules
+features[features_api][] = api:2
+features[rules_config][] = rules_send_notification_new_user_registration_
