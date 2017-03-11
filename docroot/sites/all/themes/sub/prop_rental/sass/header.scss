@@ -36,7 +36,7 @@ body {
       ul.tb-megamenu-nav {
         display: flex;
         padding: 0 5%;
-        @media only screen and (max-width: 1024px) {
+        @media only screen and (max-width: 979px) {
           display: block;
           padding: 0;
         }
