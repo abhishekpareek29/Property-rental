@@ -58,20 +58,32 @@ footer .region-footer #block-pr-site-customization-footer-second-last-block .foo
 #block-block-1 {
   padding: 20px 0;
 }
-/* line 62, ../sass/footer.scss */
+@media only screen and (max-width: 425px) {
+  /* line 60, ../sass/footer.scss */
+  #block-block-1 {
+    text-align: center;
+  }
+}
+/* line 65, ../sass/footer.scss */
 #block-block-1 .footer-last {
   padding: 15px 0;
   background: #fff;
 }
-/* line 66, ../sass/footer.scss */
+/* line 69, ../sass/footer.scss */
 #block-block-1 .footer-last p {
   margin: 0px;
 }
-/* line 69, ../sass/footer.scss */
+/* line 72, ../sass/footer.scss */
 #block-block-1 .social {
   margin: 0px;
 }
-/* line 72, ../sass/footer.scss */
+@media only screen and (max-width: 425px) {
+  /* line 72, ../sass/footer.scss */
+  #block-block-1 .social {
+    float: none !important;
+  }
+}
+/* line 78, ../sass/footer.scss */
 #block-block-1 .social a {
   background: url("../images/social-icons.png") no-repeat scroll 0 0 transparent;
   display: inline-block;
@@ -82,35 +94,35 @@ footer .region-footer #block-pr-site-customization-footer-second-last-block .foo
   width: 50px;
   margin-left: 5px;
 }
-/* line 82, ../sass/footer.scss */
+/* line 88, ../sass/footer.scss */
 #block-block-1 .social a.fb {
   background-position: left top;
 }
-/* line 85, ../sass/footer.scss */
+/* line 91, ../sass/footer.scss */
 #block-block-1 .social a.fb:hover {
   background-position: left -51px;
 }
-/* line 88, ../sass/footer.scss */
+/* line 94, ../sass/footer.scss */
 #block-block-1 .social a.twitter {
   background-position: -51px top;
 }
-/* line 91, ../sass/footer.scss */
+/* line 97, ../sass/footer.scss */
 #block-block-1 .social a.twitter:hover {
   background-position: -51px -51px;
 }
-/* line 94, ../sass/footer.scss */
+/* line 100, ../sass/footer.scss */
 #block-block-1 .social a.gl {
   background-position: -102px top;
 }
-/* line 97, ../sass/footer.scss */
+/* line 103, ../sass/footer.scss */
 #block-block-1 .social a.gl:hover {
   background-position: -102px -51px;
 }
-/* line 100, ../sass/footer.scss */
+/* line 106, ../sass/footer.scss */
 #block-block-1 .social a.tum {
   background-position: -153px top;
 }
-/* line 103, ../sass/footer.scss */
+/* line 109, ../sass/footer.scss */
 #block-block-1 .social a.tum:hover {
   background-position: -153px -51px;
 }

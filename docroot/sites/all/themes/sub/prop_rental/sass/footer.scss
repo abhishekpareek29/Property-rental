@@ -58,6 +58,9 @@ footer {
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 #block-block-1 {
+  @media only screen and (max-width: 425px) {
+    text-align: center;
+  }
   padding: 20px 0;
   .footer-last {
     padding: 15px 0;
@@ -68,6 +71,9 @@ footer {
   }
   .social {
     margin: 0px;
+    @media only screen and (max-width: 425px) {
+      float: none !important;
+    }
   }
   .social a {
     background: url("../images/social-icons.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
